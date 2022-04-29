@@ -47,7 +47,7 @@ if (isset($_POST['login_user'])) {
 
     0%,
     100% {
-        background-image: url('images/gym_bg.jpg');
+        background-image: url('images/image4.jpg');
     }
 
     50% {
