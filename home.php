@@ -16,9 +16,35 @@ include("auth.php");
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
   <link rel="stylesheet" href="style.css">
+  <style type="text/css">
+       @keyframes changeBg {
+
+    0%,
+    100% {
+        background-image: url('images/image4.jpg');
+    }
+
+    50% {
+        background-image: url('images/image2.jpg');
+    }
+
+    75% {
+        background-image: url('images/image3.jpg');
+    }
+ 100% {
+        background-image: url('images/image1.jpg');
+    }
   
+}
+  .Page_container{
+      background:url("images/image1.jpg") cover;
+      background-repeat: no-repeat;
+      animation: changeBg 20s infinite ease-in-out;
+    }
+  </style>
 </head>
-<body style="background:url(images/gym_bg.jpg);">
+
+<body class="Page_container">
 
 
 
